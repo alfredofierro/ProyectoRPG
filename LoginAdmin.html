@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      
+      <title>Formulario de inicio de sesion</title>
+      <link rel="stylesheet" href="styleadmin.css">
+      <a href="styleadmin.css" class="rainbow-button" alt="button"></a>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="login-form">
+         <form action="LoginAdmin.php" method="post">
+
+          <div class="text">
+            Inicio de sesion de Administrador
+         </div>
+
+         <div class="field">
+            <input type="text" placeholder="Nombre de usuario" name="usuario" id="usuario" required>
+         </div>
+            
+         <div class="field">
+            <input type="password" placeholder="Contraseña" name="contra" id="contra" required>
+         </div>
+            
+         <div class="link">
+            <button><a href="../PISAMKI/LoginAdmin.php"><input type="submit" name="ingresar" value="Inicio de sesion"></a></button>
+         </div>
+            
+         
+
+         <!-- partial:index.partial.html
+         <div class="link">
+            No eres miembro?
+            <a href="registro.html">registrar</a>
+          </div>
+
+         <div class="link">
+            jugar como invitado sin registrarte
+         <a href="sinRegistro.html">jugar sin registro</a>
+         </div>
+         -->
+
+            <div class="link">
+            <a href="../index.html">Regresar a Login de Usuario</a>
+            </div>
+   
+         
+         </form>
+         
+      </div>
+
+      
+   </body>
+</html>

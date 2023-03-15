@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  display: flex;
+  height: 100vh;
+  max-width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6) url("https://cdn.pixabay.com/photo/2017/01/08/13/58/cube-1963036__340.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+ background-repeat: no-repeat size 100px;
+}
+.contacto{
+    border: 1px solid #BB2B74;
+    background-color: lightsalmon; 
+    background-repeat: no-repeat;
+      background-size: contain;
+   margin-left: center;
+        font-size: 18px;
+        padding: center;
+        margin-right: 770px;
+         box-shadow: 0 0 5px rgba(0,255,0,.3),
+              0 0 10px rgba(0,255,0,.2),
+              0 0 15px rgba(0,255,0,.1),
+              0 2px 0 black;
+}

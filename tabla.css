@@ -1,0 +1,44 @@
+/*
+	Color fondo: #632432;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;
+*/
+body{
+	background-image: url(https://fondosmil.com/fondo/16034.jpg) ;
+	font-family: Arial;
+}
+
+#main-container{
+	margin: 30px auto;
+	width: 1000px;
+
+}
+
+table{
+	background-color: silver;
+	text-align: center;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+
+thead{
+	background-color: silver;
+	border-bottom: solid 5px #0F362D;
+	color: black;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color:transparent;
+	color: blacks;
+}
+}
+
+
+
+
